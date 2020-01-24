@@ -17,7 +17,8 @@ end
 
 def artist_name
   if artist.name
-    name 
+    name
+  end
 end
 
 end
