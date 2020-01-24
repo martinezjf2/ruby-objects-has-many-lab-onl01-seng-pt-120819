@@ -16,7 +16,7 @@ def self.all
 end
 
 def artist_name
-    self.artist.name || return nil
+    self.artist.name || return
 end
 
 end
