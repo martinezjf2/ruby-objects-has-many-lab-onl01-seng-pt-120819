@@ -26,7 +26,7 @@ class Artist
   end
 
   def song_count
-    Song.count if artist
+    @@songs.count if artist
   end
 
 end
