@@ -12,6 +12,10 @@ class Author
     @posts << post
     post.author = self
   end
+
+  def posts
+    Post.all.select {|post| post.artist = self}
+  end
   
 
 
