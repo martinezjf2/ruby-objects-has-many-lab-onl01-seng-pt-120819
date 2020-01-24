@@ -21,7 +21,7 @@ end
 
 def artist_name
   artist.name if artist
-  binding.pry
+  # binding.pry
 end
 
 end
